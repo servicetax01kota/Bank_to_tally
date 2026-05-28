@@ -1,0 +1,35 @@
+{
+  "app_version": "2.0",
+  "duplicate_checking": {
+    "enabled": true,
+    "date_tolerance_days": 3,
+    "amount_tolerance": 0.02,
+    "party_name_exact_match": true,
+    "description": "Settings for identifying duplicate vouchers already in Tally"
+  },
+  "name_matching": {
+    "similarity_threshold": 85,
+    "min_name_length": 2,
+    "normalization_enabled": true,
+    "description": "Settings for matching extracted names to Tally ledgers"
+  },
+  "xml_generation": {
+    "bank_ledger_name": "Bank Account",
+    "default_debtor_group": "Sundry Debtors",
+    "default_creditor_group": "Sundry Creditors",
+    "auto_skip_duplicates": true,
+    "description": "Settings for XML file generation"
+  },
+  "tally_matching": {
+    "fuzzy_match_threshold": 80,
+    "exact_match_priority": true,
+    "auto_create_unmapped_ledgers": true,
+    "description": "Settings for matching bank names to Tally ledgers"
+  },
+  "logging": {
+    "enabled": true,
+    "log_level": "INFO",
+    "log_file": "bank_to_tally.log",
+    "description": "Logging configuration"
+  }
+}
