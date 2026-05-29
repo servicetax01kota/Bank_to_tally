@@ -1,0 +1,1 @@
+# Bank to Tally - Python Dependencies\n# Install with: pip install -r requirements.txt\n\n# Core GUI Framework\ncustomtkinter>=5.0.0\n\n# Data Processing\npandas>=1.5.0\npython-dateutil>=2.8.0\n\n# Excel Support\nopenpyxl>=3.9.0\n\n# Fuzzy String Matching\nthefuzz>=0.19.0\nLevenshtein>=0.21.0\n\n# Optional: For development\n# pytest>=7.0.0\n# pytest-cov>=4.0.0\n
